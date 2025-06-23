@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>蘿莉股份有限公司</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      background-color: #f7f9fb;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background: #d2e8f7;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #002f6c;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .services {
+      padding: 2rem;
+      text-align: center;
+    }
+    .services h2 {
+      color: #3b0a84;
+    }
+    .contact {
+      padding: 2rem;
+      background: #eef2f7;
+    }
+    .contact h2 {
+      text-align: center;
+    }
+    .contact p {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.8rem;
+      background: #005ab5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ccc;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>蘿莉股份有限公司</strong></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#contact">聯絡我們</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>蘿莉股份有限公司</h1>
+    <p>這裡是蘿莉股份有限公司<br>創立於2025.6.20<br>本網站屬於娛樂用</p>
+  </section>
+
+  <section class="services">
+    <h2>客製化網頁設計服務</h2>
+    <p>提供網站規劃、設計到上線一條龍服務，幫助您在線上建立品牌價值。</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>聯絡我們</h2>
+    <p>有問題請聯繫我的電子郵件：<br><a href="mailto:don1125356@gmail.com">don1125356@gmail.com</a><br>本網站屬於娛樂用</p>
+  </section>
+
+  <footer>
+    &copy; 2025 蘿莉股份有限公司. 保留所有權利。
+  </footer>
+</body>
+</html>
