@@ -111,10 +111,6 @@
     <p>這裡是蘿莉股份有限公司<br>創立於2025.6.20<br>本網站屬於娛樂用</p>
   </section>
 
-  <section class="services">
-    <h2>客製化網頁設計服務</h2>
-    <p>提供網站規劃、設計到上線一條龍服務，幫助您在線上建立品牌價值。</p>
-  </section>
 
   <section class="contact" id="contact">
     <h2>聯絡我們</h2>
@@ -122,7 +118,7 @@
   </section>
 
   <footer>
-    &copy; 2025 蘿莉股份有限公司. 保留所有權利。
+    &copy; 2025 蘿莉股份有限公司.本網站屬於娛樂用。
   </footer>
 </body>
 </html>
